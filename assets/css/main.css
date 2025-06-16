@@ -107,6 +107,50 @@ header {
     font-size: 22px;
 }
 
+/********************* Slider Style ***************************/
 .slider-btn {
     background-color: red;
+}
+
+.slider-bg {
+    height: 450px;
+    width: 100%;
+    background-image: url('/assets/images/H1_Desktop_1600_520_f2068ac1a9.jpg');
+    background-position: left center ;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.slider-bg2 {
+    height: 450px;
+    width: 100%;
+    background-image: url('/assets/images/Top_Banner_Desktop_5936239d37.jpg');
+    background-position: left center ;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.btn-brown {
+    background-color: #D49C4F;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 25px;
+}
+.btn-brown:hover {
+    background-color: #b28240;
+}
+.slider-heading {
+    font-size: 36px;
+    color: #000;
+    font-weight: 900;
+}
+.slider-heading-h2 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+}
+.slider-heading-p {
+    font-size: 28px;
+    color: #000;
+    font-weight: 500;
 }
