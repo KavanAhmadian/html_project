@@ -9,6 +9,7 @@
 :root {
     --gray: #585858;
     --border-color: #c9c9c9;
+    --brown-color : #D59B47;
 }
 
 body {
@@ -20,7 +21,8 @@ a {
     color: black;
 }
 ul {
-    margin: 0;
+    margin: 0!important;
+    padding: 0!important;
 }
 
 li {
@@ -153,4 +155,15 @@ header {
     font-size: 28px;
     color: #000;
     font-weight: 500;
+}
+.icon-text {
+    border-right: 1px solid var(--brown-color);
+    padding: 0 29px;
+}
+.icon-text i {
+        line-height: 1.5!important;
+        color: var(--brown-color);
+}
+.icon-text span {
+    color: var(--gray);
 }
